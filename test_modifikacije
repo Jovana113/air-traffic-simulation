@@ -1,0 +1,28 @@
+# AIRPORTS
+CODE,NAME,X,Y,CODE2
+LHR,London Heathrow,0,51,EGLL
+JFK,John F Kennedy International,-37,41,KJFK
+CDG,Charles de Gaulle,1,49,LFPG
+HND,Tokyo Haneda,70,36
+DXB,Dubai International,28,25,OMDB
+SIN,Singapore Changi,52,1
+LAX,Los Angeles International,-59,34,KLAX
+FRA,Frankfurt Airport,4,50,EDDF
+AMS,Amsterdam Schiphol,3,52
+IST,Istanbul Airport,15,41,LTFM
+ATL,Hartsfield Jackson Atlanta,-42,33
+PEK,Beijing Capital,58,40,ZBAA
+SYD,Sydney Kingsford Smith,76,-34
+GRU,Sao Paulo Guarulhos,-23,-23,SBGR
+YYZ,Toronto Pearson,-40,44
+BEG,Belgrade Nikola Tesla,10,45,LYBE
+# FLIGHTS
+FROM,TO,DEPARTURE,DURATION
+LHR,JFK,08:30,420
+EGLL,KJFK,09:00,420
+LYBE,LHR,17:10,170
+BEG,EDDF,13:20,120
+KLAX,HND,22:00,720
+CDG,LHR,18:40,75
+BEG,IST,06:45,95
+DXB,BEG,11:30,330
